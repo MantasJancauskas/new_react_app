@@ -3,7 +3,7 @@
 
 - 🔭 I’m working on **REaCt new proJext**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Install full package of REACT to run the files.</h3>
 <p align="left">
 </p>
 
