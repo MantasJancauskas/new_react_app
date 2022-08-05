@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Test.css';
 import TestApp from './TestApp';
+import './navbar/NavbarC.css';
+import Navbar from './navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar />
     <App />
     <TestApp />
   </React.StrictMode>
