@@ -1,0 +1,43 @@
+.testas {
+    text-align: center;
+  }
+  
+  .mc-logo {
+    height: 40vmin;
+    pointer-events: none;
+    position: relative;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .mc-logo {
+      animation: mc-logo-spin infinite 5s linear;
+    }
+  }
+  
+  .mc-header {
+    background-color: #234fa7;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .mc-link {
+    color: #61dafb;
+  }
+  
+  @keyframes mc-logo-spin {
+    from {
+        top: -100px;
+        left: -100px;
+        transform: rotate(-150deg);
+    }
+    to {
+        left: 200px;
+        top: 100px;
+        transform: rotate(150deg);
+    }
+  }
